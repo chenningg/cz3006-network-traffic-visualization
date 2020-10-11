@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "network_traffic_visualization"
+version = "0.1.0"
+description = "Visualization of log data from sample network traffic for Lab 3 of NTU's Net Centric Computing (CZ3006) course."
+authors = ["Chen Ning"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.1.3"
+jupyter = "^1.0.0"
+ipykernel = "^5.3.4"
+numpy = "^1.19.2"
+matplotlib = "^3.3.2"
+scipy = "^1.5.2"
+scikit-learn = "^0.23.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
